@@ -1,0 +1,69 @@
+img {
+    height: 50px;
+    width: 85px;
+    border-radius: 40px;
+    float:left;
+}
+
+.navMenu{
+    display:grid;
+    grid-template-columns: 2fr 5fr  2fr;
+    grid-gap: 1em;
+    text-align: center;
+
+}
+.gorod{
+    display:grid;
+    grid-template-columns: 100%;
+    padding: 5px;
+    background-color: #fff7ff;
+}
+.logo {
+    background-color: #fff7ff;
+}
+.Menu1{
+    background-color: #fff7ff;
+
+}
+.Menu2{
+    background-color: #fff7ff;
+    padding: 15px;
+    border-top: 1px solid grey;
+
+}
+.Menu3{
+    background-color: #fff7ff;
+    padding: 15px;
+    border-top: 1px solid grey;
+
+}
+.Menu4{
+    background-color: #fff7ff;
+    padding: 15px;
+    border-top: 1px solid grey;
+}
+.Menu5{
+
+    padding: 15px;
+    border-top: 1px solid grey;
+
+}
+.Menu6{
+    border-top: 1px solid grey;
+    padding: 15px;
+}
+.MenuAll{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #fff7ff;
+}
+.MenuAll div:hover{
+    color: #f3fffd;
+    background-color: rgba(32, 21, 28, 0.87);
+}
+.login{
+    display: grid;
+    background-color: #fff7ff;
+    text-align: right;
+    padding: 15px;
+}
