@@ -1,0 +1,56 @@
+.flats1{
+
+}
+.flats {
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+
+
+
+}
+
+.flatsItems {
+/*    display: grid;*/
+/*    grid-template-columns: 1fr ;*/
+/*    grid-auto-rows: 350px;*/
+
+    margin-left: 10%;
+margin-right: 10%;
+/*    margin-top: 30px;*/
+/*    margin-bottom: 10px;*/
+/*    padding: 10px;*/
+    background: #ffd4c7;
+
+}
+
+.flatsItems .active {
+
+}
+.image {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+.image img {
+    width:364px;
+    background: #a7a5dc;
+}
+.smallImage img{
+    width:65px;
+    height: 64px;
+    background: #ffd4c7;
+}
+.info {
+    display: grid;
+    grid-template-columns: 1fr ;
+    background: #ffffff;
+}
+.addres{
+
+}
+
+.agent{
+    background: #fff7ff;
+}
+.subinfo{
+    background: #fff7ff;
+}

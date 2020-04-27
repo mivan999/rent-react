@@ -1,26 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from './components/Header/Header';
 import './App.css';
+import Search from "./components/Search/Search";
+import LoginPage from "./components/Login/Login";
+import {Route} from "react-router-dom";
+import Flats from "./components/Flats/Flats";
 
-function App() {
+const App = (props) => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+          <div className='app-wrapper'>
+              <Header />
+
+              
+              <div className='app-wrapper-content'>
+                  {/* <Route path='/dialogs'
+                         render={ () => <DialogsContainer /> }/>
+
+                  <Route path='/profile'
+                         render={ () => <Profile /> }/>
+
+                  <Route path='/users'
+                         render={ () => <UsersContainer /> }/> */}
+                  <Route exact path='/'
+                         render={() => <Search/>}/>
+                  <Route path='/login'
+                         render={() => <LoginPage/>}/>
+
+              </div>
+              <Flats state={props.state.profilePage} />
+          </div>
+      )
 }
 
 export default App;

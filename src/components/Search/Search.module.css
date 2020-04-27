@@ -1,0 +1,89 @@
+.wrappernull{
+    background-image: url("../../img/bgimg.jpg");
+
+
+}
+.bgcolor{
+    background-color: rgba(6, 6, 32, 0.34);
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+    text-align: center;
+
+
+}
+.wrapperend{
+    display:grid;
+    grid-template-columns: 1fr;
+
+    grid-auto-rows: 210px;
+
+
+}
+.lith{
+    background-color: rgba(255, 212, 199, 0.35);
+
+
+}
+.liths{
+    margin-top: 150px;
+
+    color: #f3fffd;
+
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.buttonsGroup{
+    margin-top: 20px;
+    margin-bottom: -8px;
+    display: grid;
+    text-align: left;
+    grid-template-columns: 2fr 2fr 2fr 3fr 2fr 6fr;
+}
+.buttonsGroup2{
+    margin-top: 20px;
+    display: grid;
+    justify-items: end;
+    grid-template-columns: 1fr;
+    margin-bottom: 200px;
+
+}
+.search{
+
+    display:grid;
+    color: lightcyan;
+    grid-auto-rows: 30px;
+    grid-template-columns: 1fr;
+}
+.searchInput input{
+    height: 100%;
+    width:100%;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 10px;
+    }
+.buttonsGroup button{
+    background-color: rgba(201, 201, 200, 0.76);
+    border-radius: 10%;
+    color: #060620;
+    height: 44px;
+    font-size: 14px;
+
+}
+.buttonsGroup2 button{
+    background-color: rgba(161, 27, 184, 0.68);
+    border-radius: 5px;
+    color: #ffd4c7;
+    height: 39px;
+    width: 188px;
+    font-size: 14px;
+
+}
