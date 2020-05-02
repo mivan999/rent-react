@@ -3,7 +3,7 @@
 }
 .flats {
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 2fr 4fr 1fr;
 
 
 
@@ -19,7 +19,7 @@ margin-right: 10%;
 /*    margin-top: 30px;*/
 /*    margin-bottom: 10px;*/
 /*    padding: 10px;*/
-    background: #ffd4c7;
+/*    background: #ffd4c7;*/
 
 }
 
@@ -28,7 +28,7 @@ margin-right: 10%;
 }
 .image {
     display: grid;
-    grid-template-columns: 6fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 .image img {
     width:364px;
@@ -38,11 +38,13 @@ margin-right: 10%;
     width:65px;
     height: 64px;
     background: #ffd4c7;
+
 }
 .info {
     display: grid;
     grid-template-columns: 1fr ;
     background: #ffffff;
+    margin-left: 10px;
 }
 .addres{
 
